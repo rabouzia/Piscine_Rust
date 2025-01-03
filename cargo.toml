@@ -1,0 +1,25 @@
+[package]
+name = "md_reader"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[[bin]]
+name = "min"
+path = "module-00/ex01/min.rs"
+
+[[bin]]
+name = "yes"
+path = "module-00/ex01/yes.rs"
+
+[[bin]]
+name = "print_bytes"
+path = "module-00/ex01/print_bytes.rs"
+
+[[bin]]
+name = "collatz"
+path = "module-00/ex01/collatz.rs"
+
+[lints.rust]
+dead_code = "allow"
