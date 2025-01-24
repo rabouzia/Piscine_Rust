@@ -11,15 +11,19 @@ path = "module-00/ex01/min.rs"
 
 [[bin]]
 name = "yes"
-path = "module-00/ex01/yes.rs"
+path = "module-00/ex02/yes.rs"
 
 [[bin]]
 name = "print_bytes"
-path = "module-00/ex01/print_bytes.rs"
+path = "module-00/ex02/print_bytes.rs"
 
 [[bin]]
 name = "collatz"
-path = "module-00/ex01/collatz.rs"
+path = "module-00/ex02/collatz.rs"
+
+[[bin]]
+name = "fizzbuzz"
+path = "module-00/ex03/fizzbuzz.rs"
 
 [lints.rust]
 dead_code = "allow"

@@ -1,0 +1,8 @@
+[package]
+name = "module00-ex05"
+version = "0.0.1"
+edition = "2021"
+authors = [ "Ramzan Zoldik <rzoldik@student.42.fr>" ]
+description = "my answer to the fifth exercise of the first module of 42's Rust Piscine"
+publish = false
+default-run = "module00-ex05"
